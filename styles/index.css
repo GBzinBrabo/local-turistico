@@ -1,0 +1,127 @@
+:root {
+    --background-default: #F5F4F0;
+    --border-primary:#D9D9D9;
+  
+    --text-primary:#1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary:#696969;
+    --text-headline:#E1624F;
+  
+    --accent-blue:#0C51A7;
+    --accent-orange:#E95E10;
+    --accent-pink:#E5245E;
+    --accent-purple:#591B98;
+  
+    --font-family: "Open Sans", serif;
+  }
+
+#page{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 14px;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 64px;
+  }
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-default);
+    width: 100%;
+}
+
+.img_description{
+    width: 100%;
+    border-radius: 28px;
+    min-height: 350px;
+    max-height: 660px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.img_content_list{
+    width: 100%;
+    border-radius: 28px;
+    min-height: 250px;
+    max-height: 350px;
+    object-fit: cover;
+    margin-top: 64px;
+}
+
+.headline{
+    color: var(--text-headline);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+.title-page{
+    color: var(--text-primary);
+    text-align: left;
+    font-family: var(--font-open-sans);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 49px;
+}
+
+.titleh2{
+    line-height: 44px;
+    }
+
+.titleh3{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 38px;
+        color: var(--text-primary);
+        margin-top: 20px;
+        margin-bottom: 4px;
+        
+}
+
+.description{
+    font-family: var(--font-open-sans);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+
+  .title_content_card{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 24px;
+  }
+
+ol li{
+    display: grid;
+}
+
+.list_travel li{
+    font-weight: bold;
+    font-family: var(--font-open-sans);
+    padding-left: 28px;
+    position: relative;
+  }
+
+  .list_travel li::before{
+    content: "a";
+    color: transparent;
+    top: 35%;
+    left: 1.5%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 999px;
+    background-color: black;
+  }
+
+  
+
